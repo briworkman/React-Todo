@@ -40,9 +40,6 @@ span {
   flex-direction: column;
   margin-bottom: 20px;
 }
-h1 {
-  text-align: left;
-}
 
 .todo-list {
   display: flex;
@@ -57,7 +54,7 @@ h1 {
 .todo {
   background-color: #7543e8;
   width: 45%;
-  text-align: left;
+  text-align: center;
   margin: 4px 0;
   padding-left: 8px;
   cursor: pointer;
@@ -98,6 +95,7 @@ button {
   font-size: 16px;
   padding: 6px 14px;
   border-radius: 15px;
+  width: 200px;
 }
 
 input::placeholder {
